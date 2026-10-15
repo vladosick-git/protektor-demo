@@ -2,6 +2,11 @@
 
 Живой кейс для портфолио: мобильный сайт-каталог склада б/у шин и дисков в Екатеринбурге. Сверстан 1:1 по макетам ChatGPT (`ref/`), собирается из таблиц CSV в статический сайт одной командой.
 
+**Демо онлайн:** https://vladosick-git.github.io/protektor-demo/
+- посадочная: https://vladosick-git.github.io/protektor-demo/shiny/zimnie/205-55-r16/
+- карточка: https://vladosick-git.github.io/protektor-demo/shiny/nokian-hakkapeliitta-10-205-55-r16-sh-1048/
+- диски: https://vladosick-git.github.io/protektor-demo/diski/r17-5x114-3/
+
 ```
 python build.py            # собрать в dist/
 python build.py --serve    # собрать и открыть http://localhost:8080/protektor-demo/
