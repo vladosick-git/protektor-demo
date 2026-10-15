@@ -1,0 +1,734 @@
+{
+ "diski/": {
+  "fallback": "diski/"
+ },
+ "diski/litye-original-hyundai-kia-r15-4x100-et46-d-2068/": {
+  "sku": "Д-2068",
+  "fallback": "diski/r15-4x100/"
+ },
+ "diski/litye-original-hyundai-kia-r16-5x114-3-et46-d-2056/": {
+  "sku": "Д-2056",
+  "fallback": "diski/r16-5x114-3/"
+ },
+ "diski/litye-original-hyundai-kia-r16-5x114-3-et46-d-2058/": {
+  "sku": "Д-2058",
+  "fallback": "diski/r16-5x114-3/"
+ },
+ "diski/litye-original-hyundai-kia-r17-5x114-3-et46-d-2045/": {
+  "sku": "Д-2045",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-original-hyundai-kia-r17-5x114-3-et47-d-2041/": {
+  "sku": "Д-2041",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-original-hyundai-kia-r17-5x114-3-et47-d-2042/": {
+  "sku": "Д-2042",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-original-hyundai-kia-r17-5x114-3-et47-d-2043/": {
+  "sku": "Д-2043",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-original-lada-r16-4x100-et50-d-2063/": {
+  "sku": "Д-2063",
+  "fallback": "diski/r16-4x100/"
+ },
+ "diski/litye-original-lada-r16-4x100-et50-d-2065/": {
+  "sku": "Д-2065",
+  "fallback": "diski/r16-4x100/"
+ },
+ "diski/litye-original-nissan-r17-5x114-3-et40-d-2051/": {
+  "sku": "Д-2051",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-original-skoda-r16-5x112-et46-d-2059/": {
+  "sku": "Д-2059",
+  "fallback": "diski/r16-5x112/"
+ },
+ "diski/litye-original-skoda-r16-5x112-et46-d-2060/": {
+  "sku": "Д-2060",
+  "fallback": "diski/r16-5x112/"
+ },
+ "diski/litye-original-toyota-r17-5x114-3-et45-d-2050/": {
+  "sku": "Д-2050",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-original-toyota-r17-5x114-3-et45-d-2076/": {
+  "sku": "Д-2076",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-original-volkswagen-r17-5x112-et49-d-2053/": {
+  "sku": "Д-2053",
+  "fallback": "diski/r17-5x112/"
+ },
+ "diski/litye-original-volkswagen-r18-5x112-et44-d-2074/": {
+  "sku": "Д-2074",
+  "fallback": "diski/r18-5x112/"
+ },
+ "diski/litye-replika-hyundai-kia-r15-4x100-et46-d-2066/": {
+  "sku": "Д-2066",
+  "fallback": "diski/r15-4x100/"
+ },
+ "diski/litye-replika-hyundai-kia-r16-5x114-3-et46-d-2055/": {
+  "sku": "Д-2055",
+  "fallback": "diski/r16-5x114-3/"
+ },
+ "diski/litye-replika-hyundai-kia-r16-5x114-3-et46-d-2057/": {
+  "sku": "Д-2057",
+  "fallback": "diski/r16-5x114-3/"
+ },
+ "diski/litye-replika-hyundai-kia-r17-5x114-3-et45-d-2040/": {
+  "sku": "Д-2040",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-replika-hyundai-kia-r17-5x114-3-et45-d-2044/": {
+  "sku": "Д-2044",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-replika-toyota-r17-5x114-3-et45-d-2049/": {
+  "sku": "Д-2049",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/litye-replika-toyota-r18-5x114-3-et45-d-2071/": {
+  "sku": "Д-2071",
+  "fallback": "diski/r18-5x114-3/"
+ },
+ "diski/litye-replika-toyota-r18-5x114-3-et45-d-2072/": {
+  "sku": "Д-2072",
+  "fallback": "diski/r18-5x114-3/"
+ },
+ "diski/litye-replika-toyota-r18-5x114-3-et45-d-2073/": {
+  "sku": "Д-2073",
+  "fallback": "diski/r18-5x114-3/"
+ },
+ "diski/litye-replika-volkswagen-r18-5x112-et44-d-2075/": {
+  "sku": "Д-2075",
+  "fallback": "diski/r18-5x112/"
+ },
+ "diski/r15-4x100/": {
+  "fallback": "diski/r15-4x100/"
+ },
+ "diski/r15/": {
+  "fallback": "diski/r15/"
+ },
+ "diski/r16-4x100/": {
+  "fallback": "diski/r16-4x100/"
+ },
+ "diski/r16-5x112/": {
+  "fallback": "diski/r16-5x112/"
+ },
+ "diski/r16-5x114-3/": {
+  "fallback": "diski/r16-5x114-3/"
+ },
+ "diski/r16/": {
+  "fallback": "diski/r16/"
+ },
+ "diski/r17-5x112/": {
+  "fallback": "diski/r17-5x112/"
+ },
+ "diski/r17-5x114-3/": {
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/r17/": {
+  "fallback": "diski/r17/"
+ },
+ "diski/r18-5x112/": {
+  "fallback": "diski/r18-5x112/"
+ },
+ "diski/r18-5x114-3/": {
+  "fallback": "diski/r18-5x114-3/"
+ },
+ "diski/r18/": {
+  "fallback": "diski/r18/"
+ },
+ "diski/shtampovannye-hyundai-kia-r15-4x100-et46-d-2067/": {
+  "sku": "Д-2067",
+  "fallback": "diski/r15-4x100/"
+ },
+ "diski/shtampovannye-hyundai-kia-r15-4x100-et46-d-2069/": {
+  "sku": "Д-2069",
+  "fallback": "diski/r15-4x100/"
+ },
+ "diski/shtampovannye-hyundai-kia-r15-4x100-et46-d-2070/": {
+  "sku": "Д-2070",
+  "fallback": "diski/r15-4x100/"
+ },
+ "diski/shtampovannye-hyundai-kia-r17-5x114-3-et46-d-2039/": {
+  "sku": "Д-2039",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/shtampovannye-hyundai-kia-r17-5x114-3-et46-d-2046/": {
+  "sku": "Д-2046",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/shtampovannye-hyundai-kia-r17-5x114-3-et47-d-2047/": {
+  "sku": "Д-2047",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/shtampovannye-hyundai-kia-r17-5x114-3-et50-d-2048/": {
+  "sku": "Д-2048",
+  "fallback": "diski/r17-5x114-3/"
+ },
+ "diski/shtampovannye-lada-r16-4x100-et50-d-2064/": {
+  "sku": "Д-2064",
+  "fallback": "diski/r16-4x100/"
+ },
+ "diski/shtampovannye-skoda-r16-5x112-et46-d-2061/": {
+  "sku": "Д-2061",
+  "fallback": "diski/r16-5x112/"
+ },
+ "diski/shtampovannye-skoda-r16-5x112-et46-d-2062/": {
+  "sku": "Д-2062",
+  "fallback": "diski/r16-5x112/"
+ },
+ "diski/shtampovannye-volkswagen-r17-5x112-et49-d-2052/": {
+  "sku": "Д-2052",
+  "fallback": "diski/r17-5x112/"
+ },
+ "diski/shtampovannye-volkswagen-r17-5x112-et49-d-2054/": {
+  "sku": "Д-2054",
+  "fallback": "diski/r17-5x112/"
+ },
+ "shiny/": {
+  "fallback": "shiny/"
+ },
+ "shiny/195-65-r15/": {
+  "fallback": "shiny/195-65-r15/"
+ },
+ "shiny/205-55-r16/": {
+  "fallback": "shiny/205-55-r16/"
+ },
+ "shiny/205-60-r16/": {
+  "fallback": "shiny/205-60-r16/"
+ },
+ "shiny/215-55-r17/": {
+  "fallback": "shiny/215-55-r17/"
+ },
+ "shiny/215-60-r16/": {
+  "fallback": "shiny/215-60-r16/"
+ },
+ "shiny/215-65-r16/": {
+  "fallback": "shiny/215-65-r16/"
+ },
+ "shiny/225-45-r18/": {
+  "fallback": "shiny/225-45-r18/"
+ },
+ "shiny/bridgestone-blizzak-ice-205-55-r16-sh-1044/": {
+  "sku": "Ш-1044",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/bridgestone-blizzak-ice-205-55-r16-sh-1117/": {
+  "sku": "Ш-1117",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/bridgestone-blizzak-ice-215-65-r16-sh-1192/": {
+  "sku": "Ш-1192",
+  "fallback": "shiny/zimnie/215-65-r16/"
+ },
+ "shiny/bridgestone-blizzak-spike-02-205-55-r16-sh-1118/": {
+  "sku": "Ш-1118",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/bridgestone-blizzak-vrx-205-55-r16-sh-1116/": {
+  "sku": "Ш-1116",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/bridgestone-blizzak-vrx-205-60-r16-sh-1156/": {
+  "sku": "Ш-1156",
+  "fallback": "shiny/zimnie/205-60-r16/"
+ },
+ "shiny/bridgestone-blizzak-vrx-215-60-r16-sh-1166/": {
+  "sku": "Ш-1166",
+  "fallback": "shiny/zimnie/215-60-r16/"
+ },
+ "shiny/bridgestone-blizzak-vrx-225-45-r18-sh-1183/": {
+  "sku": "Ш-1183",
+  "fallback": "shiny/zimnie/225-45-r18/"
+ },
+ "shiny/bridgestone-ecopia-ep150-205-55-r16-sh-1203/": {
+  "sku": "Ш-1203",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/bridgestone-ecopia-ep150-215-55-r17-sh-1176/": {
+  "sku": "Ш-1176",
+  "fallback": "shiny/letnie/215-55-r17/"
+ },
+ "shiny/bridgestone-ecopia-ep150-215-60-r16-sh-1169/": {
+  "sku": "Ш-1169",
+  "fallback": "shiny/letnie/215-60-r16/"
+ },
+ "shiny/bridgestone-turanza-t005-195-65-r15-sh-1147/": {
+  "sku": "Ш-1147",
+  "fallback": "shiny/letnie/195-65-r15/"
+ },
+ "shiny/bridgestone-turanza-t005-215-55-r17-sh-1177/": {
+  "sku": "Ш-1177",
+  "fallback": "shiny/letnie/215-55-r17/"
+ },
+ "shiny/continental-ecocontact-6-205-60-r16-sh-1160/": {
+  "sku": "Ш-1160",
+  "fallback": "shiny/letnie/205-60-r16/"
+ },
+ "shiny/continental-ecocontact-6-205-60-r16-sh-1161/": {
+  "sku": "Ш-1161",
+  "fallback": "shiny/letnie/205-60-r16/"
+ },
+ "shiny/continental-ecocontact-6-225-45-r18-sh-1186/": {
+  "sku": "Ш-1186",
+  "fallback": "shiny/letnie/225-45-r18/"
+ },
+ "shiny/continental-icecontact-2-195-65-r15-sh-1137/": {
+  "sku": "Ш-1137",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/continental-icecontact-2-225-45-r18-sh-1184/": {
+  "sku": "Ш-1184",
+  "fallback": "shiny/zimnie/225-45-r18/"
+ },
+ "shiny/continental-icecontact-3-205-55-r16-sh-1046/": {
+  "sku": "Ш-1046",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/continental-icecontact-3-205-60-r16-sh-1152/": {
+  "sku": "Ш-1152",
+  "fallback": "shiny/zimnie/205-60-r16/"
+ },
+ "shiny/continental-icecontact-3-215-65-r16-sh-1190/": {
+  "sku": "Ш-1190",
+  "fallback": "shiny/zimnie/215-65-r16/"
+ },
+ "shiny/continental-premiumcontact-6-195-65-r15-sh-1146/": {
+  "sku": "Ш-1146",
+  "fallback": "shiny/letnie/195-65-r15/"
+ },
+ "shiny/continental-premiumcontact-6-195-65-r15-sh-1149/": {
+  "sku": "Ш-1149",
+  "fallback": "shiny/letnie/195-65-r15/"
+ },
+ "shiny/continental-premiumcontact-6-205-55-r16-sh-1199/": {
+  "sku": "Ш-1199",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/continental-premiumcontact-6-215-65-r16-sh-1194/": {
+  "sku": "Ш-1194",
+  "fallback": "shiny/letnie/215-65-r16/"
+ },
+ "shiny/continental-vikingcontact-7-195-65-r15-sh-1141/": {
+  "sku": "Ш-1141",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/continental-vikingcontact-7-205-55-r16-sh-1112/": {
+  "sku": "Ш-1112",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/continental-vikingcontact-7-205-55-r16-sh-1113/": {
+  "sku": "Ш-1113",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/continental-vikingcontact-7-205-55-r16-sh-1114/": {
+  "sku": "Ш-1114",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/continental-vikingcontact-7-205-55-r16-sh-1115/": {
+  "sku": "Ш-1115",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/continental-vikingcontact-7-205-55-r16-sh-1135/": {
+  "sku": "Ш-1135",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/continental-vikingcontact-7-205-60-r16-sh-1157/": {
+  "sku": "Ш-1157",
+  "fallback": "shiny/zimnie/205-60-r16/"
+ },
+ "shiny/continental-vikingcontact-7-215-65-r16-sh-1189/": {
+  "sku": "Ш-1189",
+  "fallback": "shiny/zimnie/215-65-r16/"
+ },
+ "shiny/continental-vikingcontact-7-225-45-r18-sh-1181/": {
+  "sku": "Ш-1181",
+  "fallback": "shiny/zimnie/225-45-r18/"
+ },
+ "shiny/hankook-kinergy-4s2-215-65-r16-sh-1206/": {
+  "sku": "Ш-1206",
+  "fallback": "shiny/vsesezonnye/215-65-r16/"
+ },
+ "shiny/hankook-kinergy-eco-2-215-55-r17-sh-1178/": {
+  "sku": "Ш-1178",
+  "fallback": "shiny/letnie/215-55-r17/"
+ },
+ "shiny/hankook-kinergy-eco-2-215-60-r16-sh-1167/": {
+  "sku": "Ш-1167",
+  "fallback": "shiny/letnie/215-60-r16/"
+ },
+ "shiny/hankook-kinergy-eco-2-215-60-r16-sh-1168/": {
+  "sku": "Ш-1168",
+  "fallback": "shiny/letnie/215-60-r16/"
+ },
+ "shiny/hankook-ventus-prime-3-205-55-r16-sh-1200/": {
+  "sku": "Ш-1200",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/hankook-ventus-prime-3-225-45-r18-sh-1187/": {
+  "sku": "Ш-1187",
+  "fallback": "shiny/letnie/225-45-r18/"
+ },
+ "shiny/hankook-winter-icept-iz2-195-65-r15-sh-1142/": {
+  "sku": "Ш-1142",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/hankook-winter-icept-iz2-195-65-r15-sh-1145/": {
+  "sku": "Ш-1145",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/hankook-winter-icept-iz2-205-55-r16-sh-1045/": {
+  "sku": "Ш-1045",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/hankook-winter-icept-iz2-205-55-r16-sh-1121/": {
+  "sku": "Ш-1121",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/hankook-winter-icept-iz2-205-55-r16-sh-1124/": {
+  "sku": "Ш-1124",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/hankook-winter-icept-iz2-215-55-r17-sh-1172/": {
+  "sku": "Ш-1172",
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/hankook-winter-icept-iz3-205-55-r16-sh-1119/": {
+  "sku": "Ш-1119",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/hankook-winter-icept-iz3-205-55-r16-sh-1120/": {
+  "sku": "Ш-1120",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/hankook-winter-icept-iz3-205-55-r16-sh-1122/": {
+  "sku": "Ш-1122",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/hankook-winter-icept-iz3-205-55-r16-sh-1123/": {
+  "sku": "Ш-1123",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/hankook-winter-icept-iz3-205-60-r16-sh-1153/": {
+  "sku": "Ш-1153",
+  "fallback": "shiny/zimnie/205-60-r16/"
+ },
+ "shiny/hankook-winter-icept-iz3-215-65-r16-sh-1191/": {
+  "sku": "Ш-1191",
+  "fallback": "shiny/zimnie/215-65-r16/"
+ },
+ "shiny/hankook-winter-ipike-rs2-195-65-r15-sh-1144/": {
+  "sku": "Ш-1144",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/hankook-winter-ipike-rs2-205-55-r16-sh-1136/": {
+  "sku": "Ш-1136",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/letnie/": {
+  "fallback": "shiny/letnie/"
+ },
+ "shiny/letnie/195-65-r15/": {
+  "fallback": "shiny/letnie/195-65-r15/"
+ },
+ "shiny/letnie/205-55-r16/": {
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/letnie/205-60-r16/": {
+  "fallback": "shiny/letnie/205-60-r16/"
+ },
+ "shiny/letnie/215-55-r17/": {
+  "fallback": "shiny/letnie/215-55-r17/"
+ },
+ "shiny/letnie/215-60-r16/": {
+  "fallback": "shiny/letnie/215-60-r16/"
+ },
+ "shiny/letnie/215-65-r16/": {
+  "fallback": "shiny/letnie/215-65-r16/"
+ },
+ "shiny/letnie/225-45-r18/": {
+  "fallback": "shiny/letnie/225-45-r18/"
+ },
+ "shiny/michelin-alpin-6-205-55-r16-sh-1104/": {
+  "sku": "Ш-1104",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/michelin-crossclimate-plus-205-55-r16-sh-1204/": {
+  "sku": "Ш-1204",
+  "fallback": "shiny/vsesezonnye/205-55-r16/"
+ },
+ "shiny/michelin-crossclimate-plus-205-55-r16-sh-1205/": {
+  "sku": "Ш-1205",
+  "fallback": "shiny/vsesezonnye/205-55-r16/"
+ },
+ "shiny/michelin-energy-saver-plus-195-65-r15-sh-1148/": {
+  "sku": "Ш-1148",
+  "fallback": "shiny/letnie/195-65-r15/"
+ },
+ "shiny/michelin-pilot-sport-4-195-65-r15-sh-1150/": {
+  "sku": "Ш-1150",
+  "fallback": "shiny/letnie/195-65-r15/"
+ },
+ "shiny/michelin-pilot-sport-4-215-55-r17-sh-1180/": {
+  "sku": "Ш-1180",
+  "fallback": "shiny/letnie/215-55-r17/"
+ },
+ "shiny/michelin-primacy-4-205-60-r16-sh-1159/": {
+  "sku": "Ш-1159",
+  "fallback": "shiny/letnie/205-60-r16/"
+ },
+ "shiny/michelin-x-ice-north-3-195-65-r15-sh-1139/": {
+  "sku": "Ш-1139",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/michelin-x-ice-north-4-205-55-r16-sh-1047/": {
+  "sku": "Ш-1047",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/michelin-x-ice-north-4-205-55-r16-sh-1101/": {
+  "sku": "Ш-1101",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/michelin-x-ice-north-4-205-55-r16-sh-1102/": {
+  "sku": "Ш-1102",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/michelin-x-ice-north-4-205-55-r16-sh-1134/": {
+  "sku": "Ш-1134",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/michelin-x-ice-north-4-215-55-r17-sh-1173/": {
+  "sku": "Ш-1173",
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/michelin-x-ice-north-4-215-55-r17-sh-1175/": {
+  "sku": "Ш-1175",
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/michelin-x-ice-snow-195-65-r15-sh-1143/": {
+  "sku": "Ш-1143",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/michelin-x-ice-snow-205-55-r16-sh-1100/": {
+  "sku": "Ш-1100",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/michelin-x-ice-snow-205-55-r16-sh-1103/": {
+  "sku": "Ш-1103",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-hakka-green-3-205-55-r16-sh-1198/": {
+  "sku": "Ш-1198",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/nokian-hakkapeliitta-10-205-55-r16-sh-1048/": {
+  "sku": "Ш-1048",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-hakkapeliitta-10-205-55-r16-sh-1105/": {
+  "sku": "Ш-1105",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-hakkapeliitta-10-205-55-r16-sh-1111/": {
+  "sku": "Ш-1111",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-hakkapeliitta-10-225-45-r18-sh-1182/": {
+  "sku": "Ш-1182",
+  "fallback": "shiny/zimnie/225-45-r18/"
+ },
+ "shiny/nokian-hakkapeliitta-9-205-55-r16-sh-1109/": {
+  "sku": "Ш-1109",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-hakkapeliitta-r3-205-55-r16-sh-1107/": {
+  "sku": "Ш-1107",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-hakkapeliitta-r3-205-55-r16-sh-1108/": {
+  "sku": "Ш-1108",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-hakkapeliitta-r5-205-55-r16-sh-1133/": {
+  "sku": "Ш-1133",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-nordman-7-205-55-r16-sh-1106/": {
+  "sku": "Ш-1106",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/nokian-nordman-7-205-55-r16-sh-1110/": {
+  "sku": "Ш-1110",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/pirelli-cinturato-p7-205-55-r16-sh-1196/": {
+  "sku": "Ш-1196",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/pirelli-cinturato-p7-205-60-r16-sh-1158/": {
+  "sku": "Ш-1158",
+  "fallback": "shiny/letnie/205-60-r16/"
+ },
+ "shiny/pirelli-ice-zero-2-205-55-r16-sh-1043/": {
+  "sku": "Ш-1043",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/pirelli-ice-zero-2-205-55-r16-sh-1127/": {
+  "sku": "Ш-1127",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/pirelli-ice-zero-2-205-60-r16-sh-1155/": {
+  "sku": "Ш-1155",
+  "fallback": "shiny/zimnie/205-60-r16/"
+ },
+ "shiny/pirelli-ice-zero-205-55-r16-sh-1126/": {
+  "sku": "Ш-1126",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/pirelli-ice-zero-215-65-r16-sh-1193/": {
+  "sku": "Ш-1193",
+  "fallback": "shiny/zimnie/215-65-r16/"
+ },
+ "shiny/pirelli-ice-zero-fr-195-65-r15-sh-1138/": {
+  "sku": "Ш-1138",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/pirelli-ice-zero-fr-205-55-r16-sh-1125/": {
+  "sku": "Ш-1125",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/pirelli-ice-zero-fr-205-60-r16-sh-1154/": {
+  "sku": "Ш-1154",
+  "fallback": "shiny/zimnie/205-60-r16/"
+ },
+ "shiny/pirelli-ice-zero-fr-215-55-r17-sh-1208/": {
+  "sku": "Ш-1208",
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/pirelli-ice-zero-fr-215-60-r16-sh-1165/": {
+  "sku": "Ш-1165",
+  "fallback": "shiny/zimnie/215-60-r16/"
+ },
+ "shiny/pirelli-powergy-195-65-r15-sh-1151/": {
+  "sku": "Ш-1151",
+  "fallback": "shiny/letnie/195-65-r15/"
+ },
+ "shiny/pirelli-powergy-205-55-r16-sh-1201/": {
+  "sku": "Ш-1201",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/toyo-proxes-cf2-205-55-r16-sh-1197/": {
+  "sku": "Ш-1197",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/vsesezonnye/": {
+  "fallback": "shiny/vsesezonnye/"
+ },
+ "shiny/vsesezonnye/205-55-r16/": {
+  "fallback": "shiny/vsesezonnye/205-55-r16/"
+ },
+ "shiny/vsesezonnye/215-65-r16/": {
+  "fallback": "shiny/vsesezonnye/215-65-r16/"
+ },
+ "shiny/yokohama-bluearth-a-ae50-205-55-r16-sh-1202/": {
+  "sku": "Ш-1202",
+  "fallback": "shiny/letnie/205-55-r16/"
+ },
+ "shiny/yokohama-bluearth-a-ae50-215-55-r17-sh-1179/": {
+  "sku": "Ш-1179",
+  "fallback": "shiny/letnie/215-55-r17/"
+ },
+ "shiny/yokohama-bluearth-a-ae50-215-65-r16-sh-1195/": {
+  "sku": "Ш-1195",
+  "fallback": "shiny/letnie/215-65-r16/"
+ },
+ "shiny/yokohama-bluearth-a-ae50-225-45-r18-sh-1185/": {
+  "sku": "Ш-1185",
+  "fallback": "shiny/letnie/225-45-r18/"
+ },
+ "shiny/yokohama-bluearth-a-ae50-225-45-r18-sh-1188/": {
+  "sku": "Ш-1188",
+  "fallback": "shiny/letnie/225-45-r18/"
+ },
+ "shiny/yokohama-iceguard-ig55-195-65-r15-sh-1140/": {
+  "sku": "Ш-1140",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/yokohama-iceguard-ig60-195-65-r15-sh-1207/": {
+  "sku": "Ш-1207",
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/yokohama-iceguard-ig60-205-55-r16-sh-1129/": {
+  "sku": "Ш-1129",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/yokohama-iceguard-ig60-215-55-r17-sh-1174/": {
+  "sku": "Ш-1174",
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/yokohama-iceguard-ig60-215-60-r16-sh-1162/": {
+  "sku": "Ш-1162",
+  "fallback": "shiny/zimnie/215-60-r16/"
+ },
+ "shiny/yokohama-iceguard-ig60-215-60-r16-sh-1164/": {
+  "sku": "Ш-1164",
+  "fallback": "shiny/zimnie/215-60-r16/"
+ },
+ "shiny/yokohama-iceguard-ig70-205-55-r16-sh-1128/": {
+  "sku": "Ш-1128",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/yokohama-iceguard-ig70-205-55-r16-sh-1130/": {
+  "sku": "Ш-1130",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/yokohama-iceguard-ig70-205-55-r16-sh-1132/": {
+  "sku": "Ш-1132",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/yokohama-iceguard-ig70-215-55-r17-sh-1170/": {
+  "sku": "Ш-1170",
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/yokohama-iceguard-ig70-215-55-r17-sh-1171/": {
+  "sku": "Ш-1171",
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/yokohama-iceguard-stud-ig65-205-55-r16-sh-1131/": {
+  "sku": "Ш-1131",
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/yokohama-iceguard-stud-ig65-215-60-r16-sh-1163/": {
+  "sku": "Ш-1163",
+  "fallback": "shiny/zimnie/215-60-r16/"
+ },
+ "shiny/zimnie/": {
+  "fallback": "shiny/zimnie/"
+ },
+ "shiny/zimnie/195-65-r15/": {
+  "fallback": "shiny/zimnie/195-65-r15/"
+ },
+ "shiny/zimnie/205-55-r16/": {
+  "fallback": "shiny/zimnie/205-55-r16/"
+ },
+ "shiny/zimnie/205-60-r16/": {
+  "fallback": "shiny/zimnie/205-60-r16/"
+ },
+ "shiny/zimnie/215-55-r17/": {
+  "fallback": "shiny/zimnie/215-55-r17/"
+ },
+ "shiny/zimnie/215-60-r16/": {
+  "fallback": "shiny/zimnie/215-60-r16/"
+ },
+ "shiny/zimnie/215-65-r16/": {
+  "fallback": "shiny/zimnie/215-65-r16/"
+ },
+ "shiny/zimnie/225-45-r18/": {
+  "fallback": "shiny/zimnie/225-45-r18/"
+ }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "protektor-tools",
+  "private": true,
+  "description": "Скриншоты и проверки для демо-сайта Протектор",
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}

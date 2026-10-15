@@ -1,0 +1,8 @@
+dist/
+tmp/
+tools/node_modules/
+tools/.cache/
+incoming_gpt/
+kwork/
+__pycache__/
+screens/

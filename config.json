@@ -1,0 +1,66 @@
+{
+  "site_name": "Протектор",
+  "tagline": "б/у шины и диски",
+  "site_url": "https://vladosick-git.github.io/protektor-demo",
+  "base_path": "/protektor-demo/",
+  "city": "Екатеринбург",
+  "city_in": "в Екатеринбурге",
+  "address": "ул. Монтажников, 26",
+  "postal_code": "620050",
+  "geo": [
+    56.8175,
+    60.5405
+  ],
+  "hours": "ежедневно 9:00-20:00",
+  "opening_hours": "Mo-Su 09:00-20:00",
+  "phone": "+7 (343) 288-14-70",
+  "whatsapp": "73432881470",
+  "telegram": "protektor_ekb",
+  "metrika_id": "",
+  "demo": true,
+  "today": "2026-10-15",
+  "yandex_verification": "",
+  "sheet_csv_url_tires": "",
+  "sheet_csv_url_wheels": "",
+  "sold_keep_days": 60,
+  "reserve_days": 2,
+  "per_page": 12,
+  "popular_tire_sizes": [
+    "195/65 R15",
+    "205/55 R16",
+    "205/60 R16",
+    "215/60 R16",
+    "215/55 R17",
+    "225/45 R18"
+  ],
+  "popular_wheels": [
+    "R15 4x100",
+    "R16 5x112",
+    "R16 5x114,3",
+    "R17 5x114,3",
+    "R17 5x112",
+    "R18 5x114,3"
+  ],
+  "rating": {
+    "value": 4.8,
+    "count": 312,
+    "source": "Яндекс Картах"
+  },
+  "reviews": [
+    {
+      "name": "Андрей",
+      "text": "Протектор как на фото, всё честно.",
+      "avatar": "andrey"
+    },
+    {
+      "name": "Марина",
+      "text": "Забронировала вечером, утром поставили.",
+      "avatar": "marina"
+    },
+    {
+      "name": "Олег",
+      "text": "Сдал летнюю резину, оценили быстро.",
+      "avatar": "oleg"
+    }
+  ]
+}

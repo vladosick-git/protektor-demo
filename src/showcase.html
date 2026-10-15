@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Протектор - витрина экранов</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@700;800&display=swap">
+<style>
+  /* Холст 1536x1024: shot.js снимает его с масштабом 1.25 = 1920x1280 */
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { width: 1536px; height: 1024px; overflow: hidden; font-family: Inter, sans-serif; background: #e9eae6; color: #141414; position: relative; }
+  .cap { position: absolute; left: 56px; top: 40px; }
+  .cap h1 { margin: 0; font: 800 34px/1.15 Unbounded, sans-serif; letter-spacing: -.01em; }
+  .cap p { margin: 10px 0 0; font-size: 19px; color: #474a52; max-width: 560px; }
+  .cap .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: #ffd20a; margin-right: 10px; vertical-align: 3px; }
+  .browser { position: absolute; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 30px 70px rgba(0,0,0,.22); }
+  .bar { height: 44px; background: #eceef1; display: flex; align-items: center; gap: 14px; padding: 0 16px; border-bottom: 1px solid #dadde1; }
+  .bar i { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+  .url { flex: 1; height: 28px; border-radius: 14px; background: #fff; display: flex; align-items: center; padding: 0 14px; font-size: 14px; color: #3a3d42; gap: 8px; }
+  .url b { font-weight: 500; color: #141414; }
+  .frame { border: 0; display: block; transform-origin: 0 0; background: #f3f4f2; }
+  .phone { position: absolute; width: 400px; height: 846px; border-radius: 52px; background: #111; padding: 12px; box-shadow: 0 30px 60px rgba(0,0,0,.25); }
+  .phone .scr { width: 376px; height: 822px; border-radius: 40px; overflow: hidden; background: #fff; position: relative; }
+  .phone .st { height: 34px; display: flex; justify-content: space-between; align-items: center; padding: 0 26px; font: 600 14px Inter; }
+  .phone iframe { width: 390px; height: 816px; border: 0; transform: scale(.964); transform-origin: 0 0; }
+  .phone + .lbl, .lbl { position: absolute; font-size: 18px; font-weight: 600; text-align: center; width: 400px; }
+  .csv { position: absolute; background: #fff; border-radius: 14px; box-shadow: 0 30px 70px rgba(0,0,0,.18); overflow: hidden; font-size: 13px; }
+  .csv .bar { background: #1f7244; color: #fff; border: 0; font-weight: 600; }
+  .csv table { border-collapse: collapse; }
+  .csv td, .csv th { border: 1px solid #d9dcdf; padding: 6px 8px; white-space: nowrap; text-align: left; }
+  .csv th { background: #f1f3f4; font-weight: 600; }
+  .csv tr.hl td { background: #fff7cc; }
+  .csv tr.sold td { background: #f2f2f2; color: #6b6e74; }
+  .arrow { position: absolute; font: 800 60px Unbounded; color: #141414; }
+  .note { position: absolute; background: #fff; border-radius: 12px; padding: 14px 18px; font-size: 16px; line-height: 1.45; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+  .note b { display: block; font-size: 17px; margin-bottom: 4px; }
+  code { background: #f1f2f4; padding: 1px 6px; border-radius: 5px; font-size: .92em; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const set = new URLSearchParams(location.search).get('set') || 'catalog';
+const BASE = location.pathname.replace(/showcase\.html$/, '');
+const root = document.getElementById('root');
+
+function browser({ x, y, w, h, path, shown, scale = 1, scroll = 0 }) {
+  const ih = (h - 44) / scale;
+  return `<div class="browser" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px">
+    <div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i>
+    <div class="url">🔒 <b>protektor-ekb.ru</b>${shown}</div></div>
+    <iframe class="frame" data-scroll="${scroll}" src="${BASE}${path}" style="width:${w / scale}px;height:${ih}px;transform:scale(${scale})" title="${shown}"></iframe></div>`;
+}
+function phone({ x, y, path, label }) {
+  return `<div class="phone" style="left:${x}px;top:${y}px"><div class="scr"><div class="st"><span>9:41</span><span>▂▄▆ ◔ ▮</span></div>
+    <iframe src="${BASE}${path}" title="${label}"></iframe></div></div><div class="lbl" style="left:${x}px;top:${y + 858}px">${label}</div>`;
+}
+
+if (set === 'catalog') {
+  root.innerHTML = browser({ x: 40, y: 40, w: 1456, h: 944, path: 'shiny/zimnie/205-55-r16/', shown: '/shiny/zimnie/205-55-r16/', scale: 1456 / 1440 });
+}
+if (set === 'product') {
+  root.innerHTML = browser({ x: 40, y: 40, w: 1456, h: 944, path: 'shiny/nokian-hakkapeliitta-10-205-55-r16-sh-1048/', shown: '/shiny/nokian-hakkapeliitta-10-205-55-r16-sh-1048/', scale: 1456 / 1440 });
+}
+if (set === 'mobile') {
+  document.body.style.background = '#e9eae6';
+  root.innerHTML = phone({ x: 98, y: 40, path: '', label: '1. Подбор по размеру' }) +
+    phone({ x: 568, y: 40, path: 'shiny/zimnie/205-55-r16/#filters', label: '2. Фильтры' }) +
+    phone({ x: 1038, y: 40, path: 'diski/r17-5x114-3/?etmin=45&etmax=47&co=67.1', label: '3. Подбор дисков' });
+}
+if (set === 'sold') {
+  root.innerHTML = `<div class="cap"><h1>Проданное не пропадает</h1><p>Страница проданного комплекта остаётся в поиске с плашкой «Продано», разметкой SoldOut и похожими в наличии. Через 60 дней - 301 на размер.</p></div>` +
+    browser({ x: 40, y: 190, w: 1060, h: 794, path: 'shiny/pirelli-ice-zero-2-205-55-r16-sh-1043/', shown: '/shiny/pirelli-ice-zero-2-205-55-r16-sh-1043/', scale: 1060 / 1280 }) +
+    `<div class="note" style="left:1130px;top:200px;width:366px"><b>schema.org</b><code>Product</code> + <code>Offer</code><br>availability: <code>SoldOut</code><br>itemCondition: <code>UsedCondition</code><br><code>BreadcrumbList</code> на всех страницах</div>
+     <div class="note" style="left:1130px;top:400px;width:366px"><b>Индексация фильтров</b>Размер и сезон - чистые адреса <code>/shiny/zimnie/205-55-r16/</code>. Бренд, протектор, цена - GET-параметры с canonical, закрыты в robots.txt, для Яндекса Clean-param.</div>
+     <div class="note" style="left:1130px;top:640px;width:366px"><b>Проверено скриптом</b>203 страницы, 150 товаров с разметкой, sitemap.xml с фото, битых ссылок 0. Lighthouse mobile: SEO и доступность 90+.</div>`;
+}
+if (set === 'og') {
+  document.body.style.cssText = 'width:1200px;height:630px;background:#1e2224;color:#fff';
+  root.innerHTML = `<img src="${BASE}assets/p/sh-1048/1-1080.webp" style="position:absolute;right:0;top:0;width:560px;height:630px;object-fit:cover" alt="">
+    <div style="position:absolute;left:64px;top:70px;width:560px">
+      <img src="${BASE}assets/img/favicon.svg" style="width:96px;height:96px" alt="">
+      <h1 style="font:800 52px/1.1 Unbounded;margin:34px 0 0">ПРОТЕКТОР</h1>
+      <p style="font:600 30px/1.35 Inter;margin:18px 0 0">Б/у шины и диски с проверкой в Екатеринбурге</p>
+      <p style="font:400 22px/1.4 Inter;margin:26px 0 0;color:#ffd20a">Остаток протектора - на каждом фото</p></div>`;
+}
+if (set === 'csv') {
+  root.innerHTML = `<div class="cap"><h1>Товары - из таблицы</h1><p>Сотрудник правит строку в Excel или Google Таблице, сайт пересобирается сам: карточка, фильтры, посадочные, sitemap.</p></div>
+    <div class="csv" style="left:40px;top:200px;width:900px"><div class="bar">tires.csv - Excel</div><div id="tbl"></div></div>
+    <div class="arrow" style="left:960px;top:470px">→</div>` +
+    phone({ x: 1060, y: 120, path: 'shiny/nokian-hakkapeliitta-10-205-55-r16-sh-1048/', label: 'Карточка на сайте' }) +
+    `<div class="note" style="left:40px;top:660px;width:900px"><b>Продали комплект?</b>Статус <code>продано</code> + дата. Товар уходит из выдачи, его страница получает плашку «Продано» и похожие, через 60 дней - автоматический 301. Фото - папка с артикулом: <code>photos/Ш-1048/01 Комплект.jpg</code>.</div>`;
+  fetch(BASE + 'assets/data/tires.json').then(r => r.json()).then(d => {
+    const rows = [['Ш-1048','в наличии','зима','да','Nokian Tyres','Hakkapeliitta 10','205','55','16','2022','4','8,6/8,5/8,4/8,5','28400'],
+      ['Ш-1047','в наличии','зима','да','Michelin','X-Ice North 4','205','55','16','2021','4','7,1/7,0/6,9/7,0','22000'],
+      ['Ш-1046','в наличии','зима','да','Continental','IceContact 3','205','55','16','2020','4','6,6/6,5/6,4/6,5','18800'],
+      ['Ш-1045','в наличии','зима','нет','Hankook','Winter i*cept IZ2','205','55','16','2022','4','7,6/7,5/7,5/7,4','19600'],
+      ['Ш-1044','в наличии','зима','нет','Bridgestone','Blizzak Ice','205','55','16','2021','2','6,0/6,0','8400'],
+      ['Ш-1043','продано','зима','да','Pirelli','Ice Zero 2','205','55','16','2022','4','8,1/8,0/8,0/7,9','24000']];
+    const head = ['артикул','статус','сезон','шипы','бренд','модель','шир.','проф.','диам.','год','шт','протектор_мм','цена'];
+    document.getElementById('tbl').innerHTML = '<table><tr>' + head.map(h => `<th>${h}</th>`).join('') + '</tr>' +
+      rows.map((r, i) => `<tr class="${i === 0 ? 'hl' : r[1] === 'продано' ? 'sold' : ''}">` + r.map(c => `<td>${c}</td>`).join('') + '</tr>').join('') + '</table>';
+  });
+}
+</script>
+</body>
+</html>
